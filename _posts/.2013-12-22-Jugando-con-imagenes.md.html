@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>/home/mica/git/micaelgallego.github.io/_posts/.2013-12-21-Mi-nuevo-blog.md.html</title>
+<title>/home/mica/git/micaelgallego.github.io/_posts/.2013-12-22-Jugando-con-imagenes.md.html</title>
 
 
 <style type="text/css">
@@ -450,18 +450,16 @@ function setDocumentScrollTop(ypos)
 </head>
 <body class="markdown-body">
 <hr />
-<p>layout: post title: Mi nuevo blog category: Me tags: me year: 2013 month: 12 day: 21 published: true summary: Presentaci&oacute;n de mi nuevo blog</p> 
-<h2> <a name="image-post_onejpg" class="anchor" href="..md.html#image-post_onejpg"><span class="octicon octicon-link"></span></a>image: post_one.jpg</h2> 
-<p>Hoy estreno nuevo blog. Aunque por fuera parezca un blog normal, por dentro es muy diferente a los blogs &quot;tradicionales&quot;. </p> 
-<p>Como puedes ver por la URL <a href="http://micaelgallego.github.io">http://micaelgallego.github.io</a>, el blog est&aacute; alojado en GitHub, la forja y red social para desarrolladores. La diferencia fundamental con otros tipos de blogs es que este blog es una p&aacute;gina est&aacute;tica que se genera autom&aacute;ticamente partiendo de c&oacute;digo wiki. En concreto, el formato de wiki es Markdown y la herramienta de generaci&oacute;n es <a href="http://jekyllrb.com/">Jekyll</a>.</p> 
-<p>El objetivo es tener una forma m&aacute;s sencilla y m&aacute;s directa de escribir entradas del blog que incluyan c&oacute;digo fuente. Quiz&aacute;s cambie de opini&oacute;n, pero creo que para mi es m&aacute;s sencillo escribir un nuevo post en un fichero de texto en mi ordenador que conectado a una p&aacute;gin web de wordpress o blogger. Adem&aacute;s, la sintaxis wiki es m&aacute;s amigable para escribir sobre c&oacute;digo que escribir directamente en un editor wysiwyg online. </p> 
-<p>Al principio no entend&iacute;a bien el workflow para crear el blog en github, pero despu&eacute;s de echar un vistazo a varias p&aacute;ginas ya me he enterado:</p> 
-<ul> 
- <li>Existe un generador de sitios web basado en formato wiki Markdown llamado <a href="http://jekyllrb.com/">Jekyll</a>.</li> 
- <li>Este generado se puede usar en local y tiene un sistema de generaci&oacute;n autom&aacute;tica cuando el fichero cambia.</li> 
- <li>Este sistema tambi&eacute;n est&aacute; integrado en github, de forma que el contenido en formato wiki se transforma autom&aacute;ticamente en HTML antes de ser publicado. Esto puede ser un poco confuso al principio, pero tiene la ventaja de que una vez creado el sitio, s&oacute;lo tienes que preocuparte de subir ficheros en formato wiki a git y la p&aacute;gina se genera de forma autom&aacute;tica.</li> 
-</ul>
-<p>Si ten&eacute;is ganas de probar, os recomiendo echar un vistazo a <a href="http://yeswejekyll.com/">este blog</a>. La versi&oacute;n b&aacute;sica de Jekyll es un poco &quot;minimalista&quot;, pero he encontrado <a href="http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/">este blog</a> y me ha ayudado a poner a punto este sitio. Graficamente no es muy impactante, pero creo que cumple el objetivo, es f&aacute;cil de editar.</p> 
-<p>Lo que ocurre es que ahora tengo que aprender un poco de Markdown. Yo soy m&aacute;s de Textile (el formato de wiki que usa Redmine). He encontrado esta p&aacute;gina con informaci&oacute;n sobre <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> que me est&aacute; sirviendo como gu&iacute;a r&aacute;pida. </p>
+<p>layout: post title: Jugando con im&aacute;genes category: tags: Jekyll, wiki year: 2013 month: 12 day: 22 published: true summary: Jugando con im&aacute;genes en Markdown con Jekyll</p> 
+<h2> <a name="image" class="anchor" href="..md.html#image"><span class="octicon octicon-link"></span></a>image:</h2> 
+<p>En este post voy a hacer algunas pruebas con im&aacute;genes en un post. Para insertar una imagen parece que basta con tener el fichero en una carpeta del sitio y hacer una referencia a dicha imagen.</p> 
+<p>No he visto ning&uacute;n mecanismo para que Jekyll gestione las im&aacute;genes de una forma algo m&aacute;s inteligente, como por ejemplo, el reescalado autom&aacute;tico. </p> 
+<p>Mi primera imagen en un blog va a ser el logo de Jekyll. </p> 
+<p><a href="/img/posts/2013-12-22/jekyll.png" target="_blank"><img src="/img/posts/2013-12-22/jekyll.png" alt="Jekyll" style="max-width:100%;" /></a></p> 
+<p>Para que se vea la imagen, he puesto el siguiente c&oacute;digo en el post: </p> 
+<pre><code>![Jekyll](/img/posts/2013-12-22/jekyll.png)
+</code></pre> 
+<p>Como se puede intuir, la parta m&aacute;s laboriosa de trabajar con im&aacute;genes est&aacute; en que hay que darles nombre y crear una carpeta por cada entrada para que no se mezclen.</p> 
+<p>Buscando por la red he visto <a href="https://github.com/robwierzbowski/jekyll-picture-tag">un plugin</a> de Jekyll que hace el reescalado de las im&aacute;genes para varias resoluciones. El problema es que si usamos plugins de Jekyll, no podremos aprovecharnos de la generaci&oacute;n autom&aacute;tica del sitio por GitHub y tendremos que generar nosotros las p&aacute;ginas en local antes de subirlas. Si tenemos instalado Jekyll en local para previsualizar, esto no deber&iacute;a ser un problema, pero el flujo no es tan autom&aacute;tico. </p>
 </body>
 </html>

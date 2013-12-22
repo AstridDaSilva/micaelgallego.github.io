@@ -35,6 +35,7 @@ a varias páginas ya me he enterado:
   la ventaja de que una vez creado el sitio, sólo tienes que preocuparte de subir ficheros en formato wiki 
   a git y la página se genera de forma automática.
   
+Si tenéis ganas de probar, os recomiendo echar un vistazo a [este blog](http://yeswejekyll.com/).
 La versión básica de Jekyll es un poco "minimalista", pero he encontrado 
 [este blog](http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/) y me ha ayudado a poner a 
 punto este sitio. Graficamente no es muy impactante, pero creo que cumple el objetivo, es fácil de editar.
