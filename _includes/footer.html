@@ -1,0 +1,36 @@
+<footer class="footer">
+	<div class="container">
+		<p class="pull-right">
+			{% if page.previous.url %} 
+			
+			<a href="{{page.previous.url}}"
+				title="Previous Post: {{page.previous.title}}">&laquo; Entrada
+				anterior</a> {% endif %} | <a href="#">Inicio</a> | 
+				
+			{% if page.next.url	%} 
+			
+			<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">Siguiente
+				entrada &raquo; </a> 
+				
+			{% endif %}
+		</p>
+		<p>Página generada el {{ site.time | date: "%B %e, %Y" }}</p>
+		<p>
+			Si quieres, <a
+				href="https://github.com/micaelgallego/Feedback/issues/new"
+				title="Contacta Micael Gallego" target="_blank">ponte en
+				contacto conmigo</a>.
+		</p>
+		<script>
+			!function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script>
+	</div>
+</footer>
