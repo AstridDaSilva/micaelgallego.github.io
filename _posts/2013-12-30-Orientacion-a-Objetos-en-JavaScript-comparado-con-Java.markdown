@@ -234,7 +234,7 @@ Como ya se ha visto, la orientación a objetos basada en prototipos de JavaScrip
 
 Debido a todos estos aspectos, hace unos años empezaron a surgir librerías en JavaScript que permiten definir clases de forma que el código se parece a como se definen las clases en lenguajes como Java. En el libro [Secrets of the JS Ninja][] se dice que estas librerías implementan "técnicas de simulación de herencia clásica", porque donde más ayudan es en la creación de jerarquías de herencia. En el libro [JavaScript: The Good Parts][GoodParts] también se utiliza el término "herencia clásica". 
 
-Algunas de las librerías ofrecen mucha más funcionalidad, pero aquí sólo estamos interesados en la definición de clases. A continuación se presenta la sintaxis que se usa en algunas de las librerías más relevantes y actualizadas como [Prototype.js][] y [JS.Class][]. No obstante, hay bastantes más librerías que permiten crear clases como [Base2][], [Joose][], [klass][], [Mootools][], [selfish][], [classy][], [qooxdoo][], [yui][]. 
+Algunas de las librerías ofrecen mucha más funcionalidad, pero aquí sólo estamos interesados en la definición de clases. A continuación se presenta la sintaxis que se usa en algunas de las librerías más relevantes y actualizadas como [Prototype.js][] y [JS.Class][]. No obstante, hay bastantes más librerías que permiten crear clases como [Base2][], [Joose][], [klass][], [Mootools][], [selfish][], [classy][], [qooxdoo][], [yui][] y [dejavu][]. 
 
 Para comprender cómo funcionan estas librerías se pueden consultar las siguientes referencias:
 
@@ -254,6 +254,7 @@ Para comprender cómo funcionan estas librerías se pueden consultar las siguien
 [qooxdoo]: http://manual.qooxdoo.org/1.4.x/pages/core/classes.html
 [yui]: http://yuilibrary.com/yui/docs/yui/yui-extend.html
 [JerarquiasJavaScript]: http://stackoverflow.com/questions/7486825/javascript-inheritance]
+[dejavu]: http://indigounited.com/dejavu/
 
 No he revisado todas las librerías, pero creo que la gran mayoría de ellas sólo introducen azucar sintáctico para crear clases con prototipos. No he visto ninguna librería que ayude a crear clases con módulos.
 
