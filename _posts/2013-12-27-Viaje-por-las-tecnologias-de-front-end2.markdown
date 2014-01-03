@@ -1112,3 +1112,7 @@ super para métodos:
 
 * Existe una librería estándar en forma de métodos de los valores de tipos básicos. Se verá en otra entrada del blog.
 
+<div id="note">
+{% capture myinclude %}{% include vtf.markdown %}{% endcapture %}
+{{ myinclude | markdownify }}
+</div>

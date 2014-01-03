@@ -106,3 +106,8 @@ contar algo de esto en la asignatura que estoy a punto de empezar a la vuelta de
 estuve trabajando con ella, así que toca actualizarse.
 
 Iré contanto mis peripecias en este viaje en más entradas sobre el **Viaje por las tecnologías de "front-end"** 
+
+<div id="note">
+{% capture myinclude %}{% include vtf.markdown %}{% endcapture %}
+{{ myinclude | markdownify }}
+</div>

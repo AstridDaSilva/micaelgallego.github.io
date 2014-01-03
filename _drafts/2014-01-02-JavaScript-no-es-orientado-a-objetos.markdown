@@ -427,7 +427,3 @@ Ya he entendido las características del lenguaje JavaScript, pero todavía no l
 
 Dentro de un tiempo os contaré mis impresiones ;). Si quieres, puedes compartir con nosotros tu experiencia en los comentarios. 
 
-<div id="note">
-{% capture myinclude %}{% include vtf.markdown %}{% endcapture %}
-{{ myinclude | markdownify }}
-</div>

@@ -852,3 +852,8 @@ Además, hay que tener en cuenta las ventajas e inconvenientes de cada patrón. 
 Entonces, ¿Qué hago? ¿Qué patron utilizo? La verdad es que no lo tengo claro.
 
 ¿Me puedes decir que opción usas tu y por qué lo haces en los comentarios? Seguro que me ayudas a elegir y a muchos que tienen las mismas dudas que yo.
+
+<div id="note">
+{% capture myinclude %}{% include vtf.markdown %}{% endcapture %}
+{{ myinclude | markdownify }}
+</div>
