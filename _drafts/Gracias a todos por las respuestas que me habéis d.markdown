@@ -1,3 +1,15 @@
+Gracias a todos por las respuestas que me habéis dado. Me están ayudando a entender la verdadera naturaleza de JavaScript.
+
+Las conclusiones rápidas que obtengo son:
+* JavaScript es funcional y orientado a objetos. Pero pesa más el paradigma funcional.
+* El paradigma orientado a objetos se puede implementar con clases y objetos (como en CoffeeScript, Java, Ruby...) o sólo con objetos (prototipos).
+* En JavaScript (un lenguaje funcional y con orientación a objetos basada en prototipos) la herencia no juega un papel tan importante como en los lenguajes basados en clases. Aunque últimamente también se considera que la herencia puede ser un antipatrón (Java Effective Programming: Item 16) incluso en los lenguajes con clases.
+
+Supongo que mi desconcierto está motivado por varias cosas:
+* Programar durante tanto tiempo con un único lenguaje tan "riguroso y limitado" como Java te amuebla la cabeza de una determinada forma y es difícil cambiar el chip.
+* La evolución del lenguaje, librerías, frameworks y motores no ayuda nada a cambiar de chip porque las fuentes de información son muy confusas.
+* He tenido mala suerte con los libros que he leído, porque esto no me lo han contado así en ninguno ;)
+
 Libros que leer:
 
 https://leanpub.com/javascript-allonge
